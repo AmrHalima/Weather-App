@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="./js/index.js" defer></script>
+    <title>weather app</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <nav class="d-flex align-items-baseline gap-3 p-2">
+                <i class="fa-cloud fa fa-3x"></i>
+                <h1>Weather App</h1>
+            </nav>
+
+            <section class="glassy-bg d-flex flex-column gap-3">
+                <div class="d-flex justify-content-around">
+                    <div class="form-floating w-75">
+                        <input id="searchInput" type="text" class="form-control item" placeholder="">
+                        <button id="searchBtn" class="glassy-bg w-25 position-absolute end-0 top-0 h-100 h4"><i class="fa-search fa pe-3"></i></button>
+                    </div>
+                </div>
+                <div id="weatherCards" class="row g-5 text-center">
+                    <p>search your city/country</p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
